@@ -1,0 +1,27 @@
+---
+title: "R Notebook"
+output: html_document
+---
+
+Initialize libraries.
+```{r}
+draft <- read.csv("datasets/draft.csv", header = TRUE, stringsAsFactors = FALSE)
+dim(draft)
+```
+Import the data.
+```{r}
+draft <- read.csv("datasets/draft.csv", header = TRUE, stringsAsFactors = FALSE)
+dim(draft)
+```
+```{r}
+
+```
+
+Type any R code in the chunk, for example:
+```{r}
+mycars <- within(mtcars, { cyl <- ordered(cyl) })
+mycars
+```
+
+Now, click the **Run** button on the chunk toolbar to [execute](https://www.jetbrains.com/help/pycharm/r-markdown.html#run-r-code) the chunk code. The result should be placed under the chunk.
+Click the **Knit and Open Document** to build and preview an output.
