@@ -1,2 +1,2 @@
-# reading_list
-Code snippets from books from which I'm learning
+# Reading list
+This repo will hold the code snippets from books I'm currently reading/working through.
