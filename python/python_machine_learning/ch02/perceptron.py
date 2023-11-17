@@ -76,12 +76,8 @@ class Perceptron(object):
 
     def net_input(self, X):
         """Calculate net input by taking the dot product of X and w1 to wm, and adding w0 to the result."""
-        return (
-            np.dot(X, self.w_[1:]) + self.w_[0]
-        )
+        return np.dot(X, self.w_[1:]) + self.w_[0]
 
     def predict(self, X):
-        """Return the class label after the unit step. Return 1 if the net input is greater than or equal to zero; otherwise, return -1. """
-        return np.where(
-            self.net_input(X) >= 0, 1, -1
-        )
+        """Return the class label after the unit step. Return 1 if the net input is greater than or equal to zero; otherwise, return -1."""
+        return np.where(self.net_input(X) >= 0, 1, -1)
