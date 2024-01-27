@@ -1,3 +1,6 @@
 .DS_Store
 .idea
 /r/statistics_playbook/datasets/pbp.csv
+python/gradient_boosting/exoplanets_data.csv
+python/.DS_Store
+.DS_Store
